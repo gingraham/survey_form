@@ -1,0 +1,54 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+  .text__input__container, .form__input__container{
+    display: flex;
+    flex-direction: column;
+  }
+  body{
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(https://img.diverseeducation.com/files/base/diverse/all/image/2022/08/High_School_Students.62ebe12b91b8f.png?auto=format%2Ccompress&fit=max&q=70&w=400);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+  }
+  .container{
+    margin-top: 5rem;
+    max-width: 650px;
+    padding: 0rem 2rem;
+  }
+.header__container{
+  text-align: center;
+}
+  form{
+    background: rgba(5, 0, 0, 0.7);
+    padding:3rem;
+    border-radius: 5px;
+  }
+  .form-label{
+    font-weight: 700;
+  }
+  .form-label > span{
+    font-weight: 300;
+  }
